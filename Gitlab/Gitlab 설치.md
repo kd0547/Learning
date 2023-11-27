@@ -40,13 +40,14 @@ ex) https://gitlab.local.co.kr:9090
 
 ### letsencrypt 설정
 
-![Untitled](Gitlab%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20637052cf5f3f498f9aebfed015995a2d/Untitled%201.png)
+![스크린샷 2023-11-27 170431](https://github.com/kd0547/Learning/assets/86393702/b8cf4ffa-10f7-4431-8210-faa71d4c383a)
+
 
 `https` 를 사용할려면 ssl 인증서를 발급받아야한다. gitlab에서는 무료 공인 인증서 발급이 가능하다  
 
 ### nginx dedirect설정
 
-![Untitled](Gitlab%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20637052cf5f3f498f9aebfed015995a2d/Untitled%202.png)
+![스크린샷 2023-11-27 170932](https://github.com/kd0547/Learning/assets/86393702/4fc59aab-5c8f-456d-bc70-05ae566156fa)
 
 해당 설정은 `http` → `https` 로 리다이렉트를 해주는 설정이다. 
 
