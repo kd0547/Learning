@@ -26,7 +26,7 @@ sudo apt install -y ca-certificates curl openssh-server
 
 ### gitlab.rb 수정
 
-![Untitled](Gitlab%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20637052cf5f3f498f9aebfed015995a2d/Untitled.png)
+![스크린샷 2023-11-27 170026](https://github.com/kd0547/Learning/assets/86393702/05e06473-c8a2-429f-a446-a32bb49a02bd)
 
 `http 사용` : external_url ‘http://gitlab.local.co.kr’
 
