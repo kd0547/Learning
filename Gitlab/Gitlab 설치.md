@@ -35,10 +35,6 @@ sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ce
 ```
 
 
-
-
-
-
 ### gitlab.rb 수정
 
 ![스크린샷 2023-11-27 170026](https://github.com/kd0547/Learning/assets/86393702/05e06473-c8a2-429f-a446-a32bb49a02bd)
@@ -52,6 +48,8 @@ sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ce
 ex) https://gitlab.local.co.kr:9090
 
 </aside>
+
+
 
 ### letsencrypt 설정
 
