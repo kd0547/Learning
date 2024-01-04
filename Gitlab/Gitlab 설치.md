@@ -2,14 +2,19 @@
 
 <aside>
 💡 Ubuntu 22.04 버전에서 설치했습니다.
-
+  
 </aside>
 
 ### apt update
 
 ```bash
-sudo apt update
-sudo apt upgrade -y
+sudo apt-get update 
+```
+
+### gitlab 의존성 설치
+
+```bash
+sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
 ```
 
 ### Postfix 설치
@@ -18,11 +23,21 @@ sudo apt upgrade -y
 sudo apt install postfix
 ```
 
-### gitlab 의존성 설치
+### gitlab ce 설치
+
 
 ```bash
-sudo apt install -y ca-certificates curl openssh-server
+ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 ```
+
+```bash
+sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ce
+```
+
+
+
+
+
 
 ### gitlab.rb 수정
 
